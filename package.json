@@ -1,6 +1,6 @@
 {
   "name": "wave-recorder",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Pipe Web Audio API nodes into PCM Wave files",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmckegg/wave-recorder.git"
+    "url": "git@github.com:taku-o/wave-recorder.git"
   },
   "keywords": [
     "pcm",
@@ -18,11 +18,11 @@
     "record",
     "encode"
   ],
-  "author": "Matt McKegg",
+  "author": "taku-o",
   "license": "MIT",
   "dependencies": {
     "audio-buffer-stream": "~1.0.0",
-    "wav": "~0.1.2",
+    "wav": "~1.0.2",
     "xtend": "^4.0.0"
   },
   "devDependencies": {
